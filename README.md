@@ -11,3 +11,7 @@ para a viagem que ele quer fazer. Mostre o valor com 3 casas decimais após o po
 2 - Desafio - Calculo da Area de um Circunferência / Bootcamp CodeAnywhere.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 A fórmula para calcular a área de uma circunferência é: area = π . raio2. Considerando para este problema que π = 3.14159:
+ 
+3 - Desafio - Folha de Pagamento / Bootcamp CodeAnywhere.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Precisamos saber quanto uma determinada empresa deve pagar para seus colaboradores, porém temos apenas a quantidade de horas trabalhadas e o valor hora. Escreva um programa que leia o número de um colaborador, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse colaborador. Em seguida, apresente o número e o salário do colaborador, com duas casas decimais.
