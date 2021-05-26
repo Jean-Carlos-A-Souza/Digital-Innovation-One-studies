@@ -15,3 +15,7 @@ A fórmula para calcular a área de uma circunferência é: area = π . raio2. C
 3 - Desafio - Folha de Pagamento / Bootcamp CodeAnywhere.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Precisamos saber quanto uma determinada empresa deve pagar para seus colaboradores, porém temos apenas a quantidade de horas trabalhadas e o valor hora. Escreva um programa que leia o número de um colaborador, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse colaborador. Em seguida, apresente o número e o salário do colaborador, com duas casas decimais.
+
+4 - Desafio - Calculo Multiplos / Bootcamp CodeAnywhere.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
