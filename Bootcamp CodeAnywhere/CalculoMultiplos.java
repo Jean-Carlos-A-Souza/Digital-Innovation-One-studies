@@ -8,7 +8,7 @@ public class Desafio{
         int valor1  = leitor.nextInt();
         int valor2  = leitor.nextInt();
 
-        if ( valor1 % valor2 == 0 ) {
+        if ( valor1 % valor2 == 0 || valor2 % valor1 == 0 ) {
             System.out.println("Sao Multiplos");
         } else {
              System.out.println("Nao sao Multiplos");
