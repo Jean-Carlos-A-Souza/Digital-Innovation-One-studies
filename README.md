@@ -19,3 +19,7 @@ Precisamos saber quanto uma determinada empresa deve pagar para seus colaborador
 4 - Desafio - Calculo Multiplos / Bootcamp CodeAnywhere.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si.
+
+5 - Desafio - Analise de Numeros / Bootcamp CodeAnywhere.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Você deve fazer a leitura de 5 valores inteiros. Em seguida mostre quantos valores informados são pares, quantos valores informados são ímpares, quantos valores informados são positivos e quantos valores informados são negativos.
