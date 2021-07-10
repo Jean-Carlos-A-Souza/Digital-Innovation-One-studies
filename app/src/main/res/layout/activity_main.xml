@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Calc_Title"
+        style="@style/Title_calc"
+        android:layout_width="0dp"
+
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="IMC"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/inf"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#3C7154"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Calc_Title" />
+
+    <EditText
+        android:id="@+id/Valor_Alt"
+        style="@style/valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint=" Digite a Altura: (ex: 1.90)"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/Calcular"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Valor_Peso"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <EditText
+        android:id="@+id/Valor_Peso"
+        style="@style/valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Calc_Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:ems="15"
+        android:hint="Digite o Peso: (ex: 65.8)"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Calc_Title" />
+
+    <Button
+        android:id="@+id/Calcular"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#4F9D9F"
+        android:text="Calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
